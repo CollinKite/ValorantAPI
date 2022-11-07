@@ -4,7 +4,6 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
-import kite.collin.valorantapi.Model.AgentModel;
 import kite.collin.valorantapi.Model.ModelAbstract;
 
 import java.io.File;

@@ -3,30 +3,24 @@ package kite.collin.valorantapi.Model;
 public class AgentModel extends ModelAbstract {
 
 
-    private String type;
+    private String role;
 
 
-    public String getType() {
-        return type;
+    public String getRole() {
+        return role;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setRole(String role) {
+        this.role = role;
     }
 
-    public AgentModel(int id, String name, String type) {
+    public AgentModel(int id, String name, String Role) {
         setId(id);
         setName(name);
-        this.type = type;
+        this.role = Role;
     }
 
     public AgentModel() {
     }
 }
 
-enum agentType {
-    DUELIST,
-    INITIATOR,
-    CONTROLLER,
-    SENTINEL
-}
