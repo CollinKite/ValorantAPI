@@ -9,7 +9,8 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
 @JsonSubTypes({
         @JsonSubTypes.Type(AgentModel.class),
         @JsonSubTypes.Type(MapModel.class),
-        @JsonSubTypes.Type(WeaponModel.class)
+        @JsonSubTypes.Type(WeaponModel.class),
+        @JsonSubTypes.Type(UserModel.class)
     })
 
  public abstract class ModelAbstract {
