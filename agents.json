@@ -1,12 +1,1 @@
-[
-  {
-    "id": 1,
-    "name": "Jett",
-    "role": "Duelist"
-  },
-  {
-    "id": 2,
-    "name": "Omen",
-    "role": "Controller"
-  }
-]
+[{"id":1,"name":"Jett","role":"Duelist"},{"id":2,"name":"Omen","role":"Controller"}]
